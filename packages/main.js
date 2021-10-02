@@ -3,7 +3,7 @@
 const resources = require("./resources.js");
 
 const runScripts = () => {
-    const activeResources = resources.filter(resource => resource.active);
+    const activeResources = resources.filter((resource) => resource.active);
     activeResources.forEach((resource) => {
         require(resource.path);
         console.log(`${resource.name} loaded`);

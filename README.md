@@ -26,6 +26,3 @@ I want to add my "blip" resource.
 And finally 
 
 ![](https://cdn.discordapp.com/attachments/842840007471005696/892889545949982760/unknown.png)
-
-
-
