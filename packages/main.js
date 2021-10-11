@@ -1,5 +1,3 @@
-"use strict";
-
 const resources = require("./resources.js");
 
 const runScripts = () => {
@@ -11,12 +9,10 @@ const runScripts = () => {
     console.log(`${activeResources.length} resources loaded`);
 };
 
-const runServer = () => {
+(() => {
     try {
         runScripts();
     } catch (error) {
         console.log(error.message);
     }
-};
-
-runServer();
+})();
